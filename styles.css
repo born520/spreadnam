@@ -1,9 +1,12 @@
 /* 열 번호(A, B, C 등) 숨기기 */
-.waffle th.column-headers-background {
-    display: none;
+.waffle th.column-headers-background, 
+.waffle td.column-headers-background {
+    display: none !important;
 }
 
 /* 행 번호(1, 2, 3 등) 숨기기 */
-.waffle th.row-headers-background {
-    display: none;
+.waffle th.row-headers-background, 
+.waffle td.row-headers-background, 
+.waffle .row-header-wrapper {
+    display: none !important;
 }
