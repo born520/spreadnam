@@ -1,0 +1,9 @@
+/* 열 번호(A, B, C 등) 숨기기 */
+.waffle th.column-headers-background {
+    display: none;
+}
+
+/* 행 번호(1, 2, 3 등) 숨기기 */
+.waffle th.row-headers-background {
+    display: none;
+}
